@@ -2,7 +2,7 @@
 <html lang="en">
 
 @include('includes.head')
-
+// body in layout
 <body>
 <div class="container">
     <header>
