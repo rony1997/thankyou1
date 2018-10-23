@@ -8,12 +8,15 @@ class PagesController extends Controller
     function home(){
         return view( 'pages.home');
     }
+    //about page
     function about(){
         return view( 'pages.about');
     }
+    //contact page
     function contact(){
         return view( 'pages.contact');
     }
+    // name page
     function store(Request $request){
         $name = $request->name;
         return redirect()->route('thanks',['name'=> $name]);
