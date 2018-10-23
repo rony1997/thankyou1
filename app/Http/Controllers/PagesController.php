@@ -1,8 +1,10 @@
 <?php
+//namespace
 namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 class PagesController extends Controller
 {
+    //link to home
     function home(){
         return view( 'pages.home');
     }
